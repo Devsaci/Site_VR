@@ -24,7 +24,11 @@
             </ul>
         </div>
     </nav>
+    <div class="container">
+
     <?= $content ?>
+    </div>
+   
     
 
 
