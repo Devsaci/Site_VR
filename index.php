@@ -1,5 +1,8 @@
+<?php ob_start() ?>
+
+ici le contenu de la page d'accueil des Artistes
 <?php
-$content = "Acceuil"; //ob_get_clean();
-//$titre = "Les livres de la bibliothèque";
+$content = ob_get_clean();
+$titre = "Les artistes";
 require "template.php";
 ?>

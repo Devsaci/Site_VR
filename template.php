@@ -27,6 +27,7 @@
     <div class="container">
 
     <?= $content ?>
+    <h1><?= $titre ?></h1>
     </div>
    
     

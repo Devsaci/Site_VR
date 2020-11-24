@@ -1,5 +1,8 @@
+<?php ob_start() ?>
+ici le contenu de la page Liste des Disques
+
 <?php
-$content = "Liste des Livres"; //ob_get_clean();
-//$titre = "Les livres de la bibliothèque";
+$content = ob_get_clean();
+$titre = "Liste des disques";
 require "template.php";
 ?>
